@@ -1,0 +1,138 @@
+{
+  "departments": [
+    {
+      "id": 82,
+      "name": "Front-End 2",
+      "description": "UI-team"
+    },
+    {
+      "id": 1666,
+      "name": "Hip Hop",
+      "description": "H_H"
+    },
+    {
+      "id": 1722,
+      "name": "QA",
+      "description": "Test team"
+    },
+    {
+      "id": 2027,
+      "name": "Hogwarts",
+      "description": "Magic school"
+    },
+    {
+      "id": 2190,
+      "name": "Test Department",
+      "description": "Created by e2e test"
+    },
+    {
+      "id": 2191,
+      "name": "Test Department",
+      "description": "Created by e2e test"
+    },
+    {
+      "id": 2193,
+      "name": "Test Department",
+      "description": "Created by e2e test"
+    },
+    {
+      "id": 2198,
+      "name": "Test Department",
+      "description": "Created by e2e test"
+    },
+    {
+      "id": 2199,
+      "name": "Test Department",
+      "description": "Created by e2e test"
+    },
+    {
+      "id": 2201,
+      "name": "Test Department",
+      "description": "Created by e2e test"
+    },
+    {
+      "id": 2207,
+      "name": "2",
+      "description": "2"
+    },
+    {
+      "id": "50",
+      "name": "Fedor",
+      "description": "Something"
+    }
+  ],
+  "employees": [
+    {
+      "id": 410,
+      "firstName": "John",
+      "lastName": "Test I",
+      "phone": "12334556",
+      "salary": 2345678,
+      "departmentId": 82,
+      "departmentName": "Front-End 2"
+    },
+    {
+      "id": 411,
+      "firstName": "Joseph",
+      "lastName": "Genchik",
+      "phone": "7328075282",
+      "salary": 234567,
+      "departmentId": 82,
+      "departmentName": "Front-End 2"
+    },
+    {
+      "id": 413,
+      "firstName": "John",
+      "lastName": "Smith II",
+      "phone": "12334556",
+      "salary": 2345678,
+      "departmentId": 82,
+      "departmentName": "Front-End 2"
+    },
+    {
+      "id": 444,
+      "firstName": "Delete",
+      "lastName": "Me",
+      "phone": "12334556",
+      "salary": 43534543,
+      "departmentId": 82,
+      "departmentName": "Front-End 2"
+    },
+    {
+      "id": 451,
+      "firstName": "Ivan",
+      "lastName": "Glukhov",
+      "phone": "2344432",
+      "salary": 65,
+      "departmentId": 82,
+      "departmentName": "Front-End 2"
+    },
+    {
+      "id": 455,
+      "firstName": "Delete",
+      "lastName": "Me",
+      "phone": "12334556",
+      "salary": 234567,
+      "departmentId": 1666,
+      "departmentName": "Hip Hop"
+    },
+    {
+      "id": 472,
+      "firstName": "Steven",
+      "lastName": "Li",
+      "phone": "168",
+      "salary": 123456789,
+      "departmentId": 1722,
+      "departmentName": "QA"
+    },
+    {
+      "id": 473,
+      "firstName": "Andy",
+      "lastName": "Lee",
+      "phone": "1688888",
+      "salary": 123456,
+      "departmentId": 1666,
+      "departmentName": "Hip Hop"
+    }
+  ]
+}
