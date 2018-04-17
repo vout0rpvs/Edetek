@@ -1,17 +1,17 @@
-<button mat-mini-fab color="primary" (click)='needToAdd=true'>Add</button>
+<button mat-raised-button color="warn" (click)='needToAdd=true'>
+    Add Department</button>
 <div *ngIf='needToAdd == true'>
     <mat-form-field>
-        <input matInput placeholder="Enter ID" [(ngModel)] = 'params.id '>
+        <input matInput placeholder="Enter ID" [(ngModel)]='params.id '>
     </mat-form-field>
     <mat-form-field>
-        <input matInput placeholder="Enter Name" [(ngModel)] = 'params.name'>
+        <input matInput placeholder="Enter Name" [(ngModel)]='params.name'>
     </mat-form-field>
     <mat-form-field>
-        <input matInput placeholder="Enter Description" [(ngModel)] = 'params.description'>
+        <input matInput placeholder="Enter Description" [(ngModel)]='params.description'>
     </mat-form-field>
-    <button mat-raised-button color="primary" type="submit" (click)='addDept()'>Add Department</button>
+    <button mat-raised-button color="primary" type="submit" (click)='addDept()'>Add</button>
 </div>
-
 <table>
     <thead>
         <th>ID</th>
@@ -23,13 +23,16 @@
             <td>{{dept.id}}</td>
             <td>{{dept.name}}</td>
             <td>{{dept.description}}</td>
-            <td><button mat-icon-button title="Delete Department" (click)="deleteDept(dept)">
-                <mat-icon color="warn">delete</mat-icon>
-            </button></td>
-            <td><button mat-mini-fab color="primary" title='Show attached employees' (click)="storeDeptId(dept)">
-                Users
-            </button></td>
+            <td>
+                <button mat-icon-button title="Delete Department" (click)="deleteDept(dept)">
+                    <mat-icon color="warn">delete</mat-icon>
+                </button>
+            </td>
+            <td>
+                <button mat-mini-fab color="primary" title='Show attached employees' (click)="storeDeptId(dept)">
+                    Users
+                </button>
+            </td>
         </tr>
     </tbody>
 </table>
-

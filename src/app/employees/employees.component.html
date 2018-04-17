@@ -1,11 +1,11 @@
 <mat-list *ngFor=' let emp of emps'>
     <mat-list-item *ngIf="this.paramMap.params.id == emp.departmentId">
         <p>
-        <span> ID: {{emp.id}} </span>
-        <span> First Name : {{emp.firstName}} </span>
-        <span> Last Name: {{emp.lastName}} </span>
-        <span> Dept ID: {{emp.departmentId}} </span>
-        <span> Dept Name: {{emp.departmentName}} </span>
+            <span> ID: {{emp.id}} </span>
+            <span> First Name : {{emp.firstName}} </span>
+            <span> Last Name: {{emp.lastName}} </span>
+            <span> Dept ID: {{emp.departmentId}} </span>
+            <span> Dept Name: {{emp.departmentName}} </span>
         </p>
     </mat-list-item>
 </mat-list>

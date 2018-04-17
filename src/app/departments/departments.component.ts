@@ -24,7 +24,6 @@ export class DepartmentsComponent implements OnInit {
     storeDeptId(department): void {
         this.router.navigate(['/employees', {id: department.id}]);
         console.log(department.id);
-
     }
     getDept(): void {
         const id = +this.activatedRoute.snapshot.paramMap.get('id');
